@@ -1,0 +1,7 @@
+Utilisateur	Mot de passe	Rôle
+superviseur	sup123	Superviseur
+ingenieur_sec	sec123	Ingénieur Sécurité
+ingenieur_sec_app	app123	Ingénieur Sécurité Applicative
+ingenieur_res	res123	Ingénieur Réseau
+technicien	tech123	Technicien
+admin	admin123	Administrateur

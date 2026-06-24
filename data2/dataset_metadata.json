@@ -1,0 +1,49 @@
+{
+  "generation_date": "2026-06-06 10:01:20",
+  "total_samples": 50000,
+  "attack_distribution": {
+    "Brute Force": 12222,
+    "DDoS": 12183,
+    "Port Scan": 12125,
+    "Malware": 10891,
+    "Normal": 1595,
+    "Phishing": 984
+  },
+  "severity_distribution": {
+    "Critique": 35104,
+    "Haute": 12129,
+    "Info": 1494,
+    "Moyenne": 1172,
+    "Basse": 101
+  },
+  "columns": [
+    "timestamp",
+    "src_ip",
+    "dst_ip",
+    "src_port",
+    "dst_port",
+    "protocol",
+    "bytes",
+    "packets",
+    "threat_source",
+    "raw_alert",
+    "duration",
+    "flags",
+    "attack_label",
+    "confidence_source",
+    "src_country",
+    "src_country_name",
+    "dst_country",
+    "dst_country_name",
+    "threat_score",
+    "severity",
+    "attack_description",
+    "bytes_per_packet",
+    "packets_per_second",
+    "campaign_id"
+  ],
+  "date_range": {
+    "min": "2026-05-07 10:04:08",
+    "max": "2026-06-06 10:00:41"
+  }
+}

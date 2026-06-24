@@ -1,0 +1,32 @@
+{
+  "confidence_threshold": 50,
+  "criticality_threshold": 40,
+  "anomaly_threshold": 0.1,
+  "default_show_normal": true,
+  "default_show_only_threats": false,
+  "model_config": {
+    "rf_n_estimators": 100,
+    "rf_max_depth": 15,
+    "if_contamination": 0.1,
+    "xgb_learning_rate": 0.1,
+    "voting_weights": [
+      1,
+      1,
+      1
+    ],
+    "xgb_n_estimators": 100
+  },
+  "alerts": {
+    "email_enabled": true,
+    "slack_enabled": false,
+    "critical_alerts_only": true,
+    "notification_emails": []
+  },
+  "csv_columns": {
+    "timestamp_col": "timestamp",
+    "src_ip_col": "src_ip",
+    "dst_ip_col": "dst_ip",
+    "threat_col": "attack_label"
+  },
+  "last_updated": "2026-06-24 00:02:13"
+}
