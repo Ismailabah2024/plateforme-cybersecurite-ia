@@ -132,7 +132,7 @@ def main():
     <div style="background-color:#0E1117;padding:20px;border-radius:10px;margin-bottom:20px">
         <h1 style="color:#ffffff;text-align:center">Plateforme à base d’IA pour la gestion et l’investigation des menaces de sécurité</h1>
         <h3 style="color:#ffffff;text-align:center">Projet de fin d'études</h3>
-        <p style="color:#ffffff;text-align:center">Elaboré par : Ismaila BAH, étudiant en Master Professionnel en Cloud Computing et Virtualisation | Encadré par : Nizar Haj Ferjani</p>
+        <p style="color:#ffffff;text-align:center">Elaboré par : Ismaila BAH, étudiant en Master Professionnel Cloud Computing et Virtualisation | Encadré par : Nizar Haj Ferjani</p>
     </div>
     """, unsafe_allow_html=True)
 
